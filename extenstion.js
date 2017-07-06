@@ -72,6 +72,6 @@ var insults = [
 ];
 
 
-//post random insult
-channel.createMessage(insults[Math.floor(Math.random()*insults.length)]);
+// Post random insult
+channel.createMessage("Fuck off " + message.author.mention + "... " + insults[Math.floor(Math.random()*insults.length)]);
 
